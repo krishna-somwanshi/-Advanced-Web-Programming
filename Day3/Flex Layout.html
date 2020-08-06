@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .myclass {
+            height: 100vh;
+
+            background: url("https://picsum.photos/id/6/1400/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myclass" style="display: flex;
+    flex-direction: column;
+    ">
+
+        <div style="flex: 1; 
+            color: white; 
+            display: flex; 
+            justify-content: space-between;
+            ">
+
+            <div style="padding: 16px; font-size: 32px;">JobBoard</div>
+            <div style="display: flex; justify-content: end;">
+                <div style="padding: 16px; font-size: 32px;">Home</div>
+                <div style="padding: 16px; font-size: 32px;">Login</div>
+            </div>
+        </div>
+        <div style="flex: 12;
+            color: white;
+            font-size: 32px;
+             display: flex;
+            flex-direction: column;
+            align-items: center;
+            ">
+            <div style="
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            ">
+                <div style="font-size: 4rem; font-weight: bold;">
+                    Find Your Career Easily
+                </div>
+                <div style="font-size: 3rem; font-weight: bold;">
+                    Welcome To Job Protal
+                </div>
+            </div>
+        </div>
+        <div style="
+        flex: 1;
+        color: white;
+        font-size: 32px;
+        display: flex;
+        justify-content: space-between;
+        ">
+
+            <div style="font-weight: bold;  padding: 16px;">Latest Jobs</div>
+            <div style="font-weight: bold;  padding: 16px;">About Us</div>
+            <div style="font-weight: bold;  padding: 16px;">Contact Us</div>
+        </div>
+    </div>
+</body>
+
+</html>
