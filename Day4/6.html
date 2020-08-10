@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="6.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
+
+
+        .myclass {
+            height: 100vh;
+            font-family: 'Red Rose', cursive;
+            background: url(https://picsum.photos/id/1036/1200/1400);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myclass"
+        style="height: 100vh; display: flex; justify-content: center; align-items: center; font-size: 32px;">
+
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="font-size: 100px; color: black;" id='counterid'>1</div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <button onclick="increment()"
+                    style="padding: 8px; font-size: 16px; padding: 16px; margin:5px; border-radius: 5px; ">Increment</button>
+                <button onclick="decrement()"
+                    style="padding: 8px; font-size: 16px; padding: 16px; margin: 5px; border-radius: 5px;">Decrement</button>
+                <!-- <div style="clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">Krish</div> -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
